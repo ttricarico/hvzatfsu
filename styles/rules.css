@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: Tahoma;
+}
+
+span.modrules{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#990000;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+	background-color:#FFFF99;
+}
+a.modrules, a.modrules:visited {
+	color:#FF6600;
+	text-decoration:none;
+}
+a.modrules:hover {
+	color:#FF6600;
+	text-decoration:underline;
+}
+
+
+
+p.title {
+	text-align:center;
+	font-size:18pt;
+	font-weight:bold;
+}
+p.articletitle{
+	text-align: left;
+	text-decoration:underline;
+	font-size:14pt;
+}
+p.sectiontitle{
+	font-size: 12pt;
+	font-weight:bold;
+	margin-bottom: .05pt;
+}
+p.sectioncontent{
+	margin-top: .05pt;
+	font-size: 10pt;
+	margin-left:35pt;
+}
+
+ul.officers {
+	list-style-type:upper-roman;
+	}
+ul.desc {
+	list-style-type:disc;
+}

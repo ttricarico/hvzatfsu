@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.clearfloat{
+	height: 0px;
+	clear:both;
+}
+
+a.playerinfo, a.playerinfo:visited{
+	color:#0066FF;
+	text-decoration:none;
+	font-size:12px;
+}
+a.playerinfo:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+a.pagenum:link, a.pagenum:visited{
+	color:#CC0000;
+	text-decoration:none;
+}
+a.pagenum:hover{
+	color:#3300FF;
+	text-decoration:underline;
+}
+div#popupframehead{
+	display: block;
+	text-align:right;
+	padding-bottom: 2px;
+}
+div#popupframehead a:link, div#popupframehead a:visited{
+	display:inline;
+	padding-left: 4px;
+	padding-right:4px;
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#0066FF;
+	text-decoration:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+div#popupframehead a:hover{
+	text-decoration:underline;
+	color:#000000;
+}
+div#popupframebody_title{
+	font-size:17pt;
+	font-weight:bold;
+	color:#000066;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-top: -15px;
+}
+div#popupframebody{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+div#popupframefooter{
+	width:100%;
+	clear:both;
+}
+input.framebtn{
+	width: 100px;
+	border: 2px solid #666666;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	background-color:#CCCCCC;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+input.framebtn:active{
+	background-color:#666666;
+}
+
+input.topbtn{
+	width: 150px;
+	padding: 3px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	border: 2px solid #000000;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color:#CCCCCC;
+	padding: 2px;
+}
+input.topbtn:hover{
+	text-decoration:underline;
+}
+input.topbtn:active{
+	background-color:#999999;
+}
+}
+input.topbtn:active{
+	background-color:#666666;
+	text-decoration:none;
+}
+a.forumlink ,a.forumlink:visited {
+	color:#FF6600;
+	text-decoration:none;
+}
+a.forumlink:hover {
+	text-decoration:underline;
+	color:#FF0000;
+}
+textarea{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	color:#333333;
+}
+span#posterror{
+	padding-left:6px;
+	color:#FF0000;
+	display: none;
+}
+span#threaderror{
+	padding-left:6px;
+	color:#FF0000;
+	display: none;
+}

@@ -1,0 +1,7 @@
+# If you would like to crawl this site, please contact us.
+
+User-agent: Browsershots
+Disallow:
+
+User-agent: *
+Disallow: /

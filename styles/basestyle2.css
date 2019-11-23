@@ -1,0 +1,160 @@
+/********************
+	hvzatfsu.com
+	base page style sheet
+	(c) 2010 Thomas Tricarico
+	(c) 2010 hvzatfsu.com
+*********************/
+::-moz-selection { background:#9D4; color:#000; /* Firefox */  }
+::selection { background:#9D4; color:#000; /* Safari and Opera */ }
+
+body{
+	background:#000000;
+	font-family:tahoma;
+	}
+	
+#frame{
+	background:#FFFFFF;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left: 3px;
+	padding-right:3px;
+	}
+
+
+#content{
+	width: 100%;
+	border-top: 1px solid #000099;
+	
+}
+#talk{
+	width:100%;
+	font-size:16px;
+	font-weight:bold;
+	color:#FF0000;
+	float:left;
+	text-align:center;
+}
+
+#header{
+	width: 100%;
+	font-family: Times New Roman, sans-serif;
+	font-size:12px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+
+span.headerleft{
+	width: auto;
+	text-align:left;
+	float:left;
+}
+span.headerright{
+	width:450px;
+	text-align:right;
+	float:right;
+}
+#headerinfo{
+	width:100%;
+	text-align:left;
+	float:right;
+}
+	
+#navblock{
+	width:100%;
+	text-align:left;
+	float:left;
+	border-bottom: 2px solid #CCCCCC;
+}
+span.navbar{
+	background-image:url(http://hvzatfsu.com/images/backgrounds/button.png);
+	background-repeat:repeat-x;
+	padding-left:20px;
+	padding-right:5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	height: 50px;
+}
+
+/***************Header Stuff******************/
+#playerinfo{
+	width: 40%;
+	text-align:left;
+	float:right;
+	
+	padding-left: 5px;
+}
+span.hvzidtitle {
+	color:#990000;
+	font-family:Tahoma;
+	font-size:10px;
+}
+span.hvzid {
+	color:#000000;
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:10px;
+}
+span.lifestatustitle {
+	color:#990000;
+	font-family:Tahoma;
+	font-size:10px;
+}
+span.lifestatus {
+	color: #000000;
+	font-family:Tahoma;
+	font-size: 10px;
+	font-weight:bold;
+}
+
+#playermenu	{
+	font-family: Tahoma;
+	font-size:12px;
+	color:#000000;
+	width:100%;
+
+}
+span.playerleft{
+	width: 70%;
+	float: left;
+	text-align:left;
+	margin-left: 5px;
+}
+span.playerright{
+	width: 20%;
+	float: right;
+	text-align: right;
+	margin-right:5px;
+}
+
+
+/* for login stuff	*/
+.userpass{
+	float:left;
+	width:106px;
+	padding: 1px;
+	font-size:10px;
+	color:#666666;
+	}
+.clearer{
+	clear:both;
+	margin:0;
+	padding:0;
+	height:0;
+	width:0;
+}
+	
+	
+/* Aesthetic Stuff	*/
+.clearfloat{
+	clear:both;
+	height:0;
+	font-size:1px;
+	line-height:0px;
+	}
+	
+

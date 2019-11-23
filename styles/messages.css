@@ -1,0 +1,60 @@
+/** CSS document
+	(c) 2011 Thomas Tricarico
+	**/
+	
+div#message{
+	width: 95%;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+div#messageheader{
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+}
+span#messagefrom{
+	font-size:18px;
+	font-weight:bold;
+	color:#900;
+}
+span#messagefrom a, span#messagefrom a:visited{
+	color:#C60;
+	text-decoration:none;
+}
+span#messagefrom a:hover{
+	color:#F60;
+	float: left;
+	text-decoration:underline;
+}
+
+span#messageinfo{
+	float:right;
+	text-align: right;
+	color:#666;
+	font-size:8pt;
+}
+
+div#mhb{
+	font-size:	12pt;
+	color:#900;
+	padding-left:50px;
+}
+div#messagebody{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12px;
+}
+div#messagefooter{
+	margin-top: 15px;
+	border-top:1px solid #CCCCCCC;
+}
+
+a.msgfromprof:link, a.msgfromprof:visited{
+	color:#900;
+	font-weight:bold;
+	text-decoration:none;
+}
+a.msgfromprof:hover{
+	color:#C60;
+	text-decoration:underline;
+}

@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* (c) 2011 Thomas Tricarico */
+/* popup.css - for the popupframe that shows up to give messages */
+
+/** The popup frame stuff is for the invisible popups that show up when certain links are clicked. **/
+div#popupframe{
+	display: block;
+	display: none;
+	position: fixed;
+	width:800px;
+	height: auto;
+	left: 50%;
+	margin-left: -400px;
+	top: 22%;
+	z-index: 104;
+	border: 7px solid #FFAAAC;
+	background: white;
+	padding: 3px;
+}
+div#popupframehead{
+	display: block;
+	padding-bottom: 2px;
+}
+div#popupframehead a:link, div#popupframehead a:visited{
+	display:inline;
+	padding-left: 4px;
+	padding-right:4px;
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#0066FF;
+	text-decoration:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+div#popupframehead a:hover{
+	text-decoration:underline;
+	color:#000000;
+}
+div#popupframebody_title{
+	font-size:17pt;
+	font-weight:bold;
+	color:#000066;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-top: -15px;
+}
+div#popupframebody{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 99%;
+}
+div#popupframefooter{
+	width:100%;
+	clear:both;
+}
+
+div#popupframehead div#head_left{
+	float: left;
+	text-align:left;
+	font-size:17pt;
+	font-weight:bold;
+	color:#000066;
+	padding-left: 5px;
+	margin-bottom: 10px;
+
+}
+
+div#popupframehead div#head_right{
+	float:right;
+	text-align:right;
+}
+
+
+/** New Post Buttons Only found in popup frame **/
+a.postbtn img, a.postbtn:visited img{
+	border:none;
+}

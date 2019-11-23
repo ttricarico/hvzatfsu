@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+a.header, a.header:visited{
+	text-decoration:none;
+	font-weight:bold;
+	color:#CC6600;
+}
+a.header:hover{
+	text-decoration:underline;
+	color:#FFCC00;
+	font-weight:bold;
+}
+
+a.headerinfo, a.headerinfo:visited{
+	text-decoration:none;
+	color:#000099;
+	font-size:11px;
+	font-family:Tahoma;
+}
+a.headerinfo:hover{
+	text-decoration:underline;
+	color:#993300;
+	font-size:11px;
+	font-family:Tahoma;
+
+}
+a.infolinks, a.infolinks:visited{
+	color:#0000CC;
+	font-family:Tahoma;
+	font-size:11px;
+	text-decoration:none;
+	}
+a.infolinks:hover{
+	color:#0000FF;
+	font-family:Tahoma;
+	font-size:11px;
+	text-decoration:underline;
+	}
+a.navbarlink, a.navbarlink:visited{
+	color:#990000;
+	margin-left: 5px;
+	text-decoration:none;
+	}
+a.navbarlink:hover {
+	color:#CC9900;
+	margin-left: 5px;
+	text-decoration:underline;
+	}
+/***Player info links****/
+a.playerinfo, a.playerinfo:visited {
+	color:#0099FF;
+	text-decoration:none;
+	}
+a.playerinfo:hover {
+	color:#0066FF;
+	text-decoration:underline;
+}
+/*** Top Bar Links ***/
+a.topbarlnk, a.topbarlnk:visited {
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+a.topbarlnk:hover {
+	color:#FF6600;
+	text-decoration:underline;
+}
+/***Footer Links****/
+a.helplinks, a.helplinks:visited{
+	color:#0000FF;
+	text-decoration:none;
+}
+a.helplinks:hover{
+	color:#000000;
+	text-decoration:underline;
+}

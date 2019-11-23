@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#reportkill {
+		float:left;
+		width:100%;
+		margin-left:5px;
+		margin-bottom:5px;
+		margin-top: 5px;
+		padding-bottom:3px;
+		padding-left:3px;
+		padding-top:3px;
+		text-align:left;
+		border-right: 1px solid #000000;
+	}
+	#killcount {
+		float:left;
+		
+		margin-left:10px;
+		padding-left:3px;
+		padding-top:3px;
+		float: right;
+	width: 90%;
+	margin-top: 4px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#cccccc;
+	}
+	#rksubmit{
+		background-color:#cccccc;
+		color:#000000;
+		text-align:center;
+		font-size:14px;
+		font-weight: bold;
+		height: 25px;
+
+	}
+	#rksubmit:hover{
+		background-color:#999999;
+	}
+	input.rktextbox{
+		background-color:#999999;
+		color:#000000;
+	}
+	input.rktextbox:hover{
+		background-color:#CCCCCC;
+	}
+	.reporthead {
+		color:#000000;
+		font-weight:700;
+		font-size:18px;
+		text-decoration:underline;
+		font-family:Tahoma;
+		text-align:center;
+	}	
+	.populations {
+		color:#000000;
+		font-family:Tahoma;
+		font-size:12;
+		font-weight:bold;
+	}
+	.popnum {
+		color:#a00;
+		font-family:Tahoma;
+		font-size: 12;
+		font-weight:bold;
+		text-decoration:none;
+	}

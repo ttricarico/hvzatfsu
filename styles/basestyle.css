@@ -1,0 +1,303 @@
+/********************
+	hvzatfsu.com
+	base page style sheet
+	(c) 2010 Thomas Tricarico
+	(c) 2010 hvzatfsu.com
+*********************/
+body{
+	background-image:url(../images/gridback.png);
+	background-repeat:repeat-y;
+	min-width:900px;
+	background-color:#000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	}
+abbr{
+	text-decoration:none;
+}
+/** The popup frame stuff is for the invisible popups that show up when certain links are clicked. **/
+div#popupframe{
+	display: block;
+	display: none;
+	position: fixed;
+	width:800px;
+	height: auto;
+	left: 50%;
+	margin-left: -400px;
+	top: 22%;
+	z-index: 104;
+	border: 7px solid #FFAAAC;
+	background: white;
+	padding: 3px;
+}
+div#popupframehead{
+	display: block;
+	text-align:right;
+	padding-bottom: 2px;
+}
+div#popupframehead a:link, div#popupframehead a:visited{
+	display:inline;
+	padding-left: 4px;
+	padding-right:4px;
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#0066FF;
+	text-decoration:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+div#popupframehead a:hover{
+	text-decoration:underline;
+	color:#000000;
+}
+div#popupframebody_title{
+	font-size:17pt;
+	font-weight:bold;
+	color:#000066;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-top: -15px;
+}
+div#popupframebody{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+div#popupframefooter{
+	width:100%;
+	clear:both;
+}
+
+#searchform
+{	
+	width:275px;
+	padding-left: 3px;
+	float:left;
+}
+	
+#topbox{
+	    font-family:Verdana, Geneva, sans-serif;
+		position:fixed;
+		top: 0;
+		left: 0;
+		background-image:url(../images/johntestbar.png);
+		background-repeat:no-repeat;
+		border-bottom:1px solid #CCCCCC;
+		height: 25px;
+		width:100%;
+		z-index:105;
+		font-size:14px;
+		
+	}
+	span.tbleft{
+		
+		background-position:center;
+		float:left;
+		height:25px;
+		width: auto;
+		text-align:center;
+		padding-left:3%;
+		margin-left:10px;	
+	}
+	span.tbright{
+		float:right;
+		width:auto;
+		margin-top: 5px;
+		padding-right:3%;
+		text-align:right;
+	}
+	
+	#reportkill2{
+		float:left;
+		height:25px;
+		width:170px;
+		background-color:#ffffff; 
+		margin-top:auto;
+		margin-left: auto;
+		margin right:100px;
+	    z-index:auto;
+	
+		}
+	
+	
+	
+	#frame{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:3px;
+	margin-top: 2.5em;
+	padding-bottom:3px;
+	padding-left: 3px;
+	padding-right:3px;
+	float:none;
+	z-index:auto;
+	background-color:#ffffff;
+	}
+	
+	
+#content{
+	width: 900px;
+	position:center;
+}
+#talk{
+	width:100%;
+	font-size:16px;
+	font-weight:bold;
+	color:#FF0000;
+	float:none;
+	text-align:center;
+	
+}
+
+#header{
+	width: 100%;
+	font-family: Times New Roman, sans-serif;
+	font-size:12px;
+}
+
+span.headerleft{
+	width: auto;
+	text-align:left;
+	float:left;
+}
+span.headerright{
+	width:450px;
+	text-align:right;
+	float:right;
+}
+#headerinfo{
+	width:100%;
+	text-align:left;
+	float:right;
+}
+	
+#navblock{
+	width:100%;
+	text-align:left;
+	float:left;
+	margin-top:5px;
+	height:55px;
+}
+/**
+span.navbar{
+	background-image:url(http://hvzatfsu.com/images/backgrounds/button.png);
+	background-repeat:repeat-x;
+	padding-left:20px;
+	padding-right:5px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	height: 50px;
+}
+
+
+/***************Header Stuff******************/
+#playerinfo{
+	width: 40%;
+	text-align:left;
+	float:right;
+	padding-left: 5px;
+	
+}
+span.hvzidtitle {
+	color:#990000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+span.hvzid {
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:10px;
+}
+span.lifestatustitle {
+	color:#990000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+span.lifestatus {
+	color: #000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+}
+
+#playermenu	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	width:100%;
+
+}
+span.playerleft{
+	width: 70%;
+	float: left;
+	text-align:left;
+	margin-left: 5px;
+}
+span.playerright{
+	width: 20%;
+	float: right;
+	text-align: right;
+	margin-right:5px;
+}
+/** Footer Stuff **/
+div#framefooter{
+	width: 100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	border-top: 1px solid #CCCCCC;
+}
+span.framefooterright{
+	width: 60%;
+	float:right;
+	text-align:right;
+}
+span.framefooterleft{
+	width: 35%;
+	float:left;
+	text-align:left;
+}
+a.helplinks, a.helplinks:visited{
+	color:#0066FF;
+	text-decoration:none
+}
+a.helplinks:hover{
+	text-decoration:underline;
+	color:#000000;
+}
+/* for login stuff	*/
+.userpass{
+	float:left;
+	width:106px;
+	padding: 1px;
+	font-size:10px;
+	color:#666666;
+	}
+.clearer{
+	clear:both;
+	margin:0;
+	padding:0;
+	height:0;
+	width:0;
+}
+/**
+#loginbtn{
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#CC0000;
+	color:#000000;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+}**/
+	
+/* Aesthetic Stuff	*/
+.clearfloat{
+	clear:both;
+	height:0;
+	font-size:1px;
+	line-height:0px;
+	}

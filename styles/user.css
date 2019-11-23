@@ -1,0 +1,71 @@
+/*CSS stuff for the registration page*/
+/*	(c)2009 FSU HvZ and Thomas Tricarico */
+
+.category {
+	font-size:14px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	}
+.description {
+	color:#FF0000;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+.style1 {font-size: 14px}
+
+
+.button {
+    border: 1px solid #006;
+    background-color:#00FFFF;
+}
+.button:hover{
+	background-color:#FFFF00;
+	}
+
+.forminfo{
+	background-color:#33CCFF;
+	}
+.forminfo:hover{
+	background-color:#FFCC00;
+	}
+	
+.formlabel {
+    display: block;
+    width: 150px;
+    float: left;
+    margin: 2px 4px 6px 4px;
+    text-align: right;
+}
+
+
+#registration{
+	float:left;
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
+	border-bottom: 1px solid #CCCCC;
+	}
+.regleft{
+	border-right: 1px solid #CCCCCC;
+	float: left;
+}
+
+.regright{
+	float: right;
+	padding-left:2px;
+	margin-left: 5px;
+}
+span.reginfo{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	margin-left:2px;
+	margin-bottom: 2px;
+	margin-right:2px;
+	color:#000066;
+	}
+.loginbox{
+	background-color:#FFFFFF;
+	}
+.loginbox:hover{
+	background-color:#CCCCCC;
+	}

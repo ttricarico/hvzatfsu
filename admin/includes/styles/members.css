@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+span.loader {
+	display:none;
+}
+
+div.row_title{
+	border-bottom: 2px solid #cccccc;
+	background-color:#FFCC66;
+	width: 100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:75%;
+	color:#000000;
+	float: left;
+	padding-left:2px;
+
+}
+div.row_even{	
+	border-bottom: 1px solid #cccccc;
+	background-color:#F9FFB0;
+	width: 100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:75%;
+	color:#000000;
+	float: left;
+	padding-left:2px;
+	padding-bottom:2px;
+
+	}
+div.row_even:hover{
+	background-color: #66FFFF;
+	}
+
+div.row_odd{
+	border-bottom: 1px solid #cccccc;
+	background-color:#FFFFFF;
+	width: 100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:75%;
+	color:#000000;
+	float:left;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom:2px;
+	}
+div.row_odd:hover{
+	background-color:#66FFFF;
+	}
+span.life_select {
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+span.id_no{
+	float:left;
+	text-align:center;
+	width: 5%;
+	}
+span.hvzid{
+	float: left;
+	text-align:center;
+	width: 15%;
+	}
+span.user_name{
+	float: left;
+	text-align:center;
+	width: 20%;
+	}
+
+span.first_name{
+	float: left;
+	text-align:center;
+	width: 15%;
+	}
+span.last_name{
+	float: left;
+	text-align:center;
+	width: 15%;
+	}
+span.phone_no{
+	float: left;
+	text-align:center;
+	width: 15%;
+	}
+span.life_status{
+	float: left;
+	text-align:center;
+	width: 15%;
+	}
+span.email{
+	float:left;
+	text-align:left;
+	width: 35%;
+	}

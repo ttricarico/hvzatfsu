@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+p.title {
+	text-align:center;
+	font-size:18pt;
+	font-weight:bold;
+}
+p.articletitle{
+	text-align: left;
+	text-decoration:underline;
+	font-size:16pt;
+}
+p.sectiontitle{
+	font-size: 14pt;
+	font-weight:bold;
+	margin-bottom: .05pt;
+}
+p.sectioncontent{
+	margin-top: .05pt;
+	font-size: 12pt;
+	margin-left:35pt;
+}
+
+ul.officers {
+	list-style-type:upper-roman;
+	}
+ul.desc {
+	list-style-type:disc;
+}
+
+#constinfo {
+	text-align: center;
+	font-size: 12pt;
+	font-family:Arial, Helvetica, sans-serif;
+}

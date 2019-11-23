@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+#news {
+	float: left;
+	width: 50%;
+	border: 1px solid #CC9900;
+}
+
+#newstitle{
+	font-family:Arial, Helvetica, sans-serif;
+	width:100%;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	background-image: url(img_shade.png);
+	background-attachment:scroll;
+	background-color:#CC0000;
+	padding-top: 4px;
+	padding-bottom:5px;
+}
+
+div.newsclearer{
+	clear:both;
+	margin:0;
+	padding:0;
+	height:0;
+	width:0;
+}
+div.newsspacer{
+	height:1px;
+	border-bottom: #FF9900 dotted 2px;
+	margin-bottom:2px;
+}
+
+span.newsimage{
+	float: left;
+	margin-top: 5px;
+	width: 18%;
+	margin-bottom:3px;
+	margin-left: 5px;
+}
+div.newsarticle{
+	width: 100%;
+	margin-bottom: 7px;
+}
+
+div.newshead{
+	width: 100%;
+	margin-left:4px;
+	text-align:left;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	color: #003153;
+}
+div.newstext{
+	width: 75%;
+	float: right;
+	margin-left:2px;
+	color:#333333;
+	border-left: 1px solid #CCCCCC;
+	}
+div.newsfooter{
+	border-top:#CCCCCC 1px solid;
+	width: 100%;
+	margin-right: 2px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+span.newsfooterleft {
+	float:left;
+	text-align: left;
+	width:60%;
+	color:#999999;
+	border-right: 1px solid #CCCCCC;
+}
+span.newsdate{
+	font-weight:bold;
+}
+span.newsposter{
+	font-weight:bold;
+}
+
+span.newsfooterright {
+	float:right;
+	text-align:right;
+	width:35%;
+}
+
+a.newslink, a.newslink:visited{
+	color:#CC6600;
+	text-decoration:none;
+}
+a.newslink:hover {
+	color:#FF6600;
+	text-decoration:underline;
+}
+
+/*******Adding news******/
+
+a.addnews, a.addnews:visited{
+	color: #CC6600;
+	text-decoration:none;
+}
+a.addnews:hover {
+	color:#990000;
+	text-decoration:underline;
+}	
+
+span.addleft {
+	width: 40%;
+	float: left;
+	text-align:left;
+	margin-left:3px;
+}
+span.addright{
+	width: 40%;
+	float:right;
+	text-align:right;
+	margin-right: 3px;
+}
+
+
+#addnewsheader{
+	width: 100%;
+	margin: 2px;
+	border-bottom: 1px solid #990000;
+}
+
+#submitnews {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin-left: 3px;
+}
+#addnews{
+	font-family:Arial, Helvetica, sans-serif;
+	width:48%;
+	font-size:12px;
+	border-top:1px solid #000000;
+	border-left: 1px solid #000000;
+	float:right;
+	text-align:left;
+	margin-top: 20px;
+}
+
+/****Moderating News*****/
+	#undispnews{
+		width: 48%;
+		float: right;
+		border: 1px solid #CCCCCC;
+	}
+	#undispnewstitle{
+		font-family:Arial, Helvetica, sans-serif;
+		width:100%;
+		font-size:14px;
+		font-weight:bold;
+		color:#000000;
+		background-image: url(img_shade.png);
+		background-attachment:scroll;
+		background-color:#FFCC00;
+		padding-top: 4px;
+		padding-bottom:5px;
+	}
+	#enternews {
+		width:48%;
+		float:right;
+		border: 1px solid #cccccc;
+	}
+	#enternewstitle{
+		font-family:Arial, Helvetica, sans-serif;
+		width:100%;
+		font-size:14px;
+		font-weight:bold;
+		color:#000000;
+		background-image: url(img_shade.png);
+		background-attachment:scroll;
+		background-color:#FFFFFF;
+		padding-top: 4px;
+		padding-bottom:5px;
+	}

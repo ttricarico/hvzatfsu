@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+#comments {
+		width: 100%;
+		margin-top: 5px;
+		font-size: 10pt;
+		margin-left:-3px;
+	}
+div#submitcomment{
+	display: none;
+	width: 100%;
+}
+	#commentheader {
+                
+		background:img_shade.png;
+		background-attachment:scroll;
+		background-color:#a00;
+        color:#ffffff;
+		float:left;
+		width:100%;
+		font-size: 10pt;
+		padding-left: 5px;
+		padding-right:-5px;
+		font-weight:bold;
+	}
+	#commentbottom {
+		width:100%;
+		float: left;
+		background-color:#FFFFFF;
+	}
+	
+	div.comment {
+		padding-bottom: 7px;
+		border-top: 1px dashed #CC0000;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+	span.commenttitle {
+		width: auto;
+		float: left;
+	}
+	#showcomments {
+		width: auto;
+		float: right;
+		text-align:right;
+		margin-right:-5px;
+		padding-right: 10px;
+	}
+	a.commentlogin, a.commentlogin:visited {
+		color:#FFFF00;
+		text-decoration:none;
+	}
+	a.commentlogin:hover {
+		color:#FFFF00;
+		text-decoration:underline;
+	}
+	span.delete
+	{
+		float:left;
+		width: auto;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		padding-left:5px;
+		padding-right: 5px;
+	}
+	span.delete:hover {
+		color:#000000;
+		background-color:#FF9900;
+	}
+	a.delete, a.delete:visited {
+		color:#990000;
+		text-decoration:none;
+	}
+	a.delete:hover {
+		color:#000000;
+		text-decoration:none;
+	}
+	span.poster {
+        color:#777777;
+		float: left;
+		width: 40%;
+		text-align:left;
+	}
+	a.posterlink, a.posterlink:visited
+	{
+		color:#CC6600;
+		text-decoration:none;
+	}
+	a.posterlink:hover {
+		color: #FF6600;
+		text-decoration:underline;
+	}
+	span.posterhvzid	{
+		color:#990000;
+	}
+	span.datestamp {
+		float:right;
+		text-align:right;
+		width: 40%;
+		color: #666666;
+	}
+	div.commentbody {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+	span.commenttext {
+        color:#000000;
+		padding-left: 30px;
+		padding-right: 30px;
+		display: block;
+	}
+
+#currentinfo{
+	float:left;
+	width: 60%;
+	margin-top: 4px;
+	margin-left: 4px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#ffffff;
+}
+#currentpop{
+	float: right;
+	width: 30%;
+	margin-top: 4px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color:#cccccc;
+
+}
+#poptable{
+	background-color:#ffffff;
+	}
+	
+
+
+.headerinfo{
+	color:#FF0000;
+	font-family:Tahoma;
+	font-size:12px;
+	margin-left: 1px;
+	}
+.infotitle{
+	color:#990000;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight: bold;
+	margin-right: 5px;
+	}
+
+div.imgbox {
+	float:right;
+	width: 38%;
+	text-align:center;
+	border:2px solid #CCCCCC;	/*dont erase this*/
+}
+div.hvzlogo{
+	float:left;
+	text-align:center;
+	width:100%;
+}
+div.logodesc{
+	font-family:Tahoma;
+	font-size:12px;
+	text-align:left;
+	border-top:1px solid #CCCCCC;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+span#date{
+	font-size:13px;
+}
+span.currentpop{
+	font-size:13px;	
+}
+
+
+div#events{
+	float:right;
+	margin-top:15px;
+	margin-right: 2px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	-moz-border-radius: 5px;	// if not mozilla 4
+	-webkit-border-radius: 5px;	// if not chrome or new safari
+	padding: 4px;
+	width: 300px;
+}
+
+div#eventhead{
+	margin-bottom: 4px;
+	padding: 4px;
+}
+
+span#eventhead_left{
+	float: left;
+	width: auto;
+}
+
+span#eventhead_right{
+	float: right;
+	padding-left: 3px;
+	width: auto;
+}
+
+div#eventlist{
+
+}
+
+/*** index submit comments stuff ***/
+
+form#indexcomment{
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#submit_head{
+	margin-left: 3px; 
+	margin-right: 2px;
+	margin-bottom: 3px;
+}
+
+div#submit_head span#left{
+	float: left;
+	font-size: 1.rem;
+	font-color: #666666;
+	width: auto;
+	padding-left: 3px;
+}
+
+div#submit_head span#right{
+	float: right;
+	font-size: 1em;
+	widith: auto;
+	padding-right: 3px;
+}
+
+
+input#submit{
+	background-color: #FFDD77;
+	padding-top: 2px;
+	padding-bottom:2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.3em;
+	font-weight: bold;
+	border: 1px solid #000000;	
+}
+input#submit:active{
+	background-color: #CC9944;
+	color: #FFFFFF;
+}
+
+div#submit_body{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+textarea#commenttext{
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
