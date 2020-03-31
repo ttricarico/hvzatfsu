@@ -41,9 +41,9 @@
   <center>
 <table>
 <tr><td> <h2>Moderator Contact Info:</h2></td></tr>
-<tr><td>Patrick Murphy, President:</td>						            <td>(321) 482-8738 </td></tr>
-<tr><td>Ryan Learn, Treasurer:</td>								        <td>(904) 327-3778</td></tr>
-<tr><td>Matt Fischer, Public Relations Chair</td>                       <td>(904)-304-1783</td></tr>
+<tr><td>Patrick Murphy, President:</td>						            <td></td></tr>
+<tr><td>Ryan Learn, Treasurer:</td>								        <td></td></tr>
+<tr><td>Matt Fischer, Public Relations Chair</td>                       <td></td></tr>
 <tr><td>Travis Sampiero, Secretary</td>                                 <td></td></tr> 
 <tr><td>Riley Lungmus, Moderator</td>									<td></td></tr>
 <tr><td>Taylor Van Winkle, Moderator</td>								<td></td></tr>
